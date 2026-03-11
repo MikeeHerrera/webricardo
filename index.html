@@ -52,9 +52,9 @@
                             <nav>
                                 <ul id="navigation">
                                     <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="about.html">Acerca de</a></li>
-                                    <li><a href="courses.html">Planes</a></li>
-                                    <li><a href="pricing.html">Casos de Exito</a></li>
+                                    <li><a href="#section_3">Planes</a></li>
+                                    <li><a href="#section_2">Acerca de</a></li>
+                                    <li><a href="#section_4">Casos de Exito</a></li>
                                     <!--li><a href="gallery.html">Agenda tu cita</a></li-->
                                     <!--li><a href="blog.html">Blog</a>
                                         <ul class="submenu">
@@ -63,13 +63,13 @@
                                             <li><a href="elements.html">Elements</a></li>
                                         </ul>
                                     </li-->
-                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="#section_5">Ubicación</a></li>
                                 </ul>
                             </nav>
                         </div>          
                         <!-- Header-btn -->
                         <div class="header-btns d-none d-lg-block f-right">
-                           <a href="contact.html" class="btn">Agenda tu cita</a>
+                           <a href="#section_6" class="btn">Agenda tu cita</a>
                        </div>
                        <!-- Mobile Menu -->
                        <div class="col-12">
@@ -83,7 +83,7 @@
 </header>
 <main>
     <!--? slider Area Start-->
-    <div class="slider-area position-relative">
+    <div class="slider-area position-relative" id="section_1">
         <div class="slider-active">
             <!-- Single Slider -->
             <div class="single-slider slider-height d-flex align-items-center">
@@ -103,7 +103,7 @@
     </div>
     <!-- slider Area End-->
     <!-- Traning categories Start -->
-    <section class="traning-categories black-bg">
+    <section class="traning-categories black-bg" >
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
@@ -139,7 +139,7 @@
     </section>
     <!-- Traning categories End-->
     <!--? Team -->
-    <section class="team-area fix">
+    <!--section class="team-area fix">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -184,7 +184,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
     <!-- Services End -->
     <!--? Gallery Area Start -->
     <div class="gallery-area section-padding30 ">
@@ -261,12 +261,12 @@
     </div>
     <!-- Gallery Area End -->
     <!-- Courses area start -->
-    <section class="pricing-area section-padding40 fix">
+    <section class="pricing-area section-padding40 fix" id="section_3">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                        <h2>PRECIOS</h2>
+                        <h2>PLANES</h2>
                     </div>
                 </div>
             </div>
@@ -274,15 +274,18 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                         <div class="properties__card">
-                            <div class="about-icon">
+                            <!--div class="about-icon">
                                 <img src="assets/img/icon/ICONO2.png" alt="" width="80%">
+                            </div-->
+                            <div >
+                                <img src="assets/img/gallery/enc_plan1.jpg" alt="" width="100%">
                             </div>
                             <div class="properties__caption">
-                                <span class="month">1 MES</span>
-                                <p class="mb-25">$1600.00  <span>(MXN)</span></p>
+                                <span class="month">1 MES DE ASESORÍA</span>
+                                <p class="mb-25">$1800.00  <span>(MXN)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>1 consulta nutricional (presencial u online) </p>
@@ -290,7 +293,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>1 plan de alimentación diseñado con base a tus objetivos, preferencias alimenticias,tiempos y practicidad</p>
@@ -298,7 +301,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Tabla de alimentos equivalentes</p>
@@ -306,7 +309,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>1 rutina de entrenamiento de acuerdo a tus objetivos (para gym o casa)</p>
@@ -314,38 +317,44 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Diagnostico corporal</p>
+                                        <p>Diagnostico corporal
+                                        <ul style="color:#fff;font-size: 1.6em;" >
+                                          <li style="list-style-type: square;" ><strong>Antroprometria.</strong> Mediciones corporales ISAK2</li>
+                                          <li style="list-style-type: square;" ><strong>Inbody.</strong> Análisis de la composicion corporal </li>
+                                        </ul>
+                                        </p>
                                     </div>
                                 </div>
                                  <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Asesoramiento en suplementación deportiva</p>
                                     </div>
                                 </div>
+                               
                                  <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <p>Manual de suplementación</p>
-                                    </div>
-                                </div>
-                                 <div class="single-features mb-20">
-                                    <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Guia de recomendaciones generales y de marcas de consumo</p>
                                     </div>
                                 </div>
+                                  <div class="single-features mb-20">
+                                    <div class="features-icon">
+                                        <img src="assets/img/icon/check.png" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>Dinamometria. Test de fuerza</p>
+                                    </div>
+                                </div>
 
-                                <a href="#" class="border-btn border-btn2">Unete</a>
+                                <a href="#section_6" class="border-btn border-btn2">Unete</a>
                             </div>
                         </div>
                     </div>
@@ -353,15 +362,18 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="properties__card">
-                            <div class="about-icon">
+                            <!--div class="about-icon">
                                 <img src="assets/img/icon/ICONO2.png" alt="" width="80%">
+                            </div-->
+                               <div >
+                                <img src="assets/img/gallery/enc_plan2.jpg" alt="" width="100%">
                             </div>
                             <div class="properties__caption">
-                                <span class="month">3 MESES </span>
-                                <p class="mb-25">$2600.00  <span>(MXN)</span></p>
+                                <span class="month">3 MESES DE ASESORÍAS </span>
+                                <p class="mb-25">$3000.00  <span>(MXN)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>3 consultas nutricionales (presencial u online) </p>
@@ -369,7 +381,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>3 plan de alimentación diseñado con base a tus objetivos, preferencias alimenticias,tiempos y practicidad</p>
@@ -377,7 +389,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Tabla de alimentos equivalentes</p>
@@ -386,38 +398,44 @@
                         
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Diagnostico corporal</p>
+                                        <p>Diagnostico corporal
+                                        <ul style="color:#fff;font-size: 1.6em;" >
+                                          <li style="list-style-type: square;" ><strong>Antroprometria.</strong> Mediciones corporales ISAK2</li>
+                                          <li style="list-style-type: square;" ><strong>Inbody.</strong> Análisis de la composicion corporal </li>
+                                        </ul>
+                                        </p>
                                     </div>
                                 </div>
                                  <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Asesoramiento en suplementación deportiva</p>
                                     </div>
                                 </div>
+                                 
                                  <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <p>Manual de suplementación</p>
-                                    </div>
-                                </div>
-                                 <div class="single-features mb-20">
-                                    <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Guia de recomendaciones generales y de marcas de consumo</p>
                                     </div>
                                 </div>
+                                <div class="single-features mb-20">
+                                    <div class="features-icon">
+                                        <img src="assets/img/icon/check.png" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>Dinamometria. Test de fuerza</p>
+                                    </div>
+                                </div>
                                    <hr style="height:5px; background-color:black;border: none;">
-                                <a href="#" class="border-btn border-btn2">Unete</a>
+                                <a href="#section_6" class="border-btn border-btn2">Unete</a>
                             </div>
                         </div>
                     </div>
@@ -425,15 +443,18 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="properties__card">
-                            <div class="about-icon">
+                            <!--div class="about-icon">
                                <img src="assets/img/icon/ICONO2.png" alt="" width="80%">
+                            </div-->
+                            <div >
+                                <img src="assets/img/gallery/enc_plan3.jpg" alt="" width="100%">
                             </div>
                             <div class="properties__caption">
                                 <span class="month">3 MESES</span>
-                                <p class="mb-25">$3000.00  <span>(MXN)</span></p>
+                                <p class="mb-25">$3800.00  <span>(MXN)</span></p>
                                  <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>3 consulta nutricional (presencial u online) </p>
@@ -441,7 +462,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>3 plan de alimentación diseñado con base a tus objetivos, preferencias alimenticias,tiempos y practicidad</p>
@@ -449,7 +470,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Tabla de alimentos equivalentes</p>
@@ -457,7 +478,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>3 rutina de entrenamiento de acuerdo a tus objetivos (para gym o casa)</p>
@@ -465,37 +486,43 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
-                                        <p>Diagnostico corporal</p>
+                                        <p>Diagnostico corporal
+                                            <ul style="color:#fff;font-size: 1.6em;" >
+                                              <li style="list-style-type: square;" ><strong>Antroprometria.</strong> Mediciones corporales ISAK2</li>
+                                              <li style="list-style-type: square;" ><strong>Inbody.</strong> Análisis de la composicion corporal </li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                                  <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Asesoramiento en suplementación deportiva</p>
                                     </div>
                                 </div>
+                               
                                  <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <p>Manual de suplementación</p>
-                                    </div>
-                                </div>
-                                 <div class="single-features mb-20">
-                                    <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="assets/img/icon/check.png" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Guia de recomendaciones generales y de marcas de consumo</p>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Unete</a>
+                                <div class="single-features mb-20">
+                                    <div class="features-icon">
+                                        <img src="assets/img/icon/check.png" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>Dinamometria. Test de fuerza</p>
+                                    </div>
+                                </div>
+                                <a href="#section_6" class="border-btn border-btn2">Unete</a>
                             </div>
                         </div>
                     </div>
@@ -505,7 +532,7 @@
     </section>
     <!-- Courses area End -->
     <!--? About Area-2 Start -->
-    <section class="about-area2 fix pb-padding pt-50 pb-80">
+    <section class="about-area2 fix pb-padding pt-50 pb-80" id="section_2">
         <div class="support-wrapper align-items-center">
             <div class="right-content2">
                 <!-- img -->
@@ -530,7 +557,8 @@
     </section>
     <!-- About Area End -->
     <!--? Blog Area Start -->
-    <section class="home-blog-area pt-10 pb-50">
+
+    <section class="home-blog-area pt-10 pb-50" id="section_4">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row justify-content-center">
@@ -541,7 +569,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
+           
+
+<div class="car-wrapper">   
+<div class="car-container" id="container2">
+  <div class="car-track" id="track">
+    <img src="assets/img/gallery/caso1.jpg" class="car-item">
+    <img src="assets/img/gallery/caso2.jpg" class="car-item">
+    <img src="assets/img/gallery/caso3.jpg" class="car-item">
+    <img src="assets/img/gallery/caso4.jpg" class="car-item">
+    <img src="assets/img/gallery/caso5.jpg" class="car-item">
+    <img src="assets/img/gallery/caso6.jpg" class="car-item">
+    <img src="assets/img/gallery/caso7.jpg" class="car-item">
+    <img src="assets/img/gallery/caso8.jpg" class="car-item">
+    <img src="assets/img/gallery/caso9.jpg" class="car-item">
+  </div>
+  </div>
+  <div class="car-dots" id="dots-container"></div>
+</div>
+
+   
+
+                <!--div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="blog-img-cap">
                             <div class="blog-img">
@@ -567,7 +616,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div-->
             </div>
         </div>
     </section>
@@ -594,7 +643,7 @@
                         </div>
                         <div class="features-caption">
                             <h3>Ubicación</h3>
-                            <p>Morelia </p>
+                            <p>Morelia,Michoacán,México </p>
                         </div>
                     </div>
                 </div>
@@ -605,8 +654,8 @@
                         </div>
                         <div class="features-caption">
                             <h3>Celular</h3>
-                            <p>(90) 277 278 2566</p>
-                            <p>  (78) 267 256 2578</p>
+                            <p>(52) 443 105 2582</p>
+                            <p>(52) 443 105 2582</p>
                         </div>
                     </div>
                 </div>
@@ -617,8 +666,8 @@
                         </div>
                         <div class="features-caption">
                             <h3>Email</h3>
-                            <p>ricardo@gmail.com</p>
-                            <p>contact56@gmail.com</p>
+                            <p>richard_zamora1@hotmail.com</p>
+                            <p>ricardonutricionydeporte@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -626,7 +675,7 @@
         </div>
     </section>
       <!--?  Contact Area start  -->
-    <section class="contact-section">
+    <section class="contact-section" id="section_5">
         <div class="container">
             <div class="d-none d-sm-block mb-5 pb-4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.508483558049!2d-101.1579690253461!3d19.69096428164442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d1203e623940b%3A0xa93d8d099acda971!2sBrasil%20399%2C%20Las%20Am%C3%A9ricas%2C%2058270%20Morelia%2C%20Mich.!5e0!3m2!1ses-419!2smx!4v1772477904908!5m2!1ses-419!2smx" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -634,9 +683,9 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h2 class="contact-title">CONTACTO</h2>
+                    <h2 class="contact-title">UBICACIÓN</h2>
                 </div>
-                <div class="col-lg-8">
+                <!--div class="col-lg-8">
                     <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                         <div class="row">
                             <div class="col-12">
@@ -654,36 +703,45 @@
                                     <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'EMAIL'" placeholder="Email">
                                 </div>
                             </div>
-                            <!--div class="col-12">
+                            <--div class="col-12">
                                 <div class="form-group">
                                     <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
                                 </div>
-                            </div-->
+                            </div->
                         </div>
                         <div class="form-group mt-3">
                             <button type="submit" class="button button-contactForm boxed-btn">ENVIAR</button>
                         </div>
                     </form>
-                </div>
+                </div-->
                 <div class="col-lg-3 offset-lg-1">
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>Morelia,México.</h3>
-                            <p>Brasil 399,Fracc Las americas, Morelia, Mich.,México</p>
+                            <h3>Morelia,Michoacán,México.</h3>
+                            <p>Brasil 399,Fracc Las americas</p>
                         </div>
                     </div>
+                   
+                </div>
+                    <div class="col-lg-3 offset-lg-1">
+                   
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3>+1 253 565 2365</h3>
-                            <p>Lunes a Viernes 9am to 6pm</p>
+                            <h3>+52 443 105 2582</h3>
+                            <p>Lunes a Viernes 9am a 6pm</p>
                         </div>
                     </div>
+                    
+                </div>
+                    <div class="col-lg-3 offset-lg-1">
+                   
+                    
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
-                            <h3>mail@colorlib.com</h3>
+                            <h3>richard_zamora1@hotmail.com</h3>
                             <p>Envianos tus comentarios!</p>
                         </div>
                     </div>
@@ -695,7 +753,7 @@
     <!-- ====================== AGENDAR CITA ====================== -->
 <!-- ====================== AGENDA TU CITA ====================== -->
 <!-- ====================== AGENDA TU CITA ====================== -->
-<section class="appointment-area section-padding40 fix black-bg">
+<section class="appointment-area section-padding40 fix black-bg" id="section_6">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-12">
@@ -745,7 +803,7 @@
                     </div>
 
                     <div class="form-group mt-4">
-                        <button type="submit" class="btn boxed-btn border-btn w-100">✅ Agendar Cita</button>
+                        <button type="submit" class="btn boxed-btn border-btn w-100"> Agendar Cita</button>
                     </div>
                 </form>
             </div>
@@ -777,12 +835,12 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">INICIO</a></li>
-                                                    <li><a href="about.html">ACERCA DE</a></li>
-                                                    <li><a href="courses.html">PLANES</a></li>
-                                                    <li><a href="pricing.html">CASOS DE EXITO</a></li>
+                                                    <li><a href="#section_1">INICIO</a></li>
+                                                    <li><a href="#section_3">PLANES</a></li>
+                                                    <li><a href="#section_2">ACERCA DE</a></li>
+                                                    <li><a href="#section_4">CASOS DE EXITO</a></li>
                                                     <!--li><a href="gallery.html">Gallery</a></li-->
-                                                    <li><a href="contact.html">CONTACTO</a></li>
+                                                    <li><a href="#section_5">UBICACIÓN</a></li>
                                                 </ul>
                                             </nav>
                                         </div>   
@@ -1024,6 +1082,57 @@ document.getElementById('appointmentForm').addEventListener('submit', async func
         console.error(err);
     }
 });
+</script>
+<script>
+const container = document.getElementById('container2');
+const items = document.querySelectorAll('.car-item');
+const dotsContainer = document.getElementById('dots-container');
+
+let currentIndex = 0;
+const total = items.length;
+
+// 1. Crear Dots
+items.forEach((_, i) => {
+  const dot = document.createElement('div');
+  dot.classList.add('dot');
+  if (i === 0) dot.classList.add('active');
+  dot.addEventListener('click', () => goToSlide(i));
+  dotsContainer.appendChild(dot);
+});
+
+const dots = document.querySelectorAll('.dot');
+
+// 2. Función para mover el carrusel
+function goToSlide(index) {
+  currentIndex = index;
+  const item = items[index];
+  
+  // Cálculo exacto de posición
+  const offset = item.offsetLeft - (container.offsetWidth / 2) + (item.offsetWidth / 2);
+  
+  container.scrollTo({ left: offset, behavior: 'smooth' });
+  
+  // Actualizar clases
+  items.forEach(el => el.classList.remove('active'));
+  dots.forEach(el => el.classList.remove('active'));
+  
+  items[index].classList.add('active');
+  dots[index].classList.add('active');
+}
+
+// Permitir clic en la imagen
+items.forEach((item, i) => {
+  item.addEventListener('click', () => goToSlide(i));
+});
+
+// 3. Autoplay sin errores
+let autoPlay = setInterval(() => {
+  currentIndex = (currentIndex + 1) % total;
+  goToSlide(currentIndex);
+}, 3000);
+
+// Pausar si el usuario toca el carrusel
+container.addEventListener('pointerdown', () => clearInterval(autoPlay));
 </script>
 </body>
 </html>
